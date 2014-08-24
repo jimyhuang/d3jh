@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Sequences sunburst</title>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <link rel="stylesheet" type="text/css"
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,600">
+    <link rel="stylesheet" type="text/css" href="v4.css"/>
+  </head>
+  <body>
+    <div id="main">
+      <h3>衛服部公開資訊：2005至今公益勸募所得比例圖</h3>
+      <div id="sequence"></div>
+      <div id="chart">
+        <div id="explanation" style="visibility: hidden;">
+          <span id="orgname"></span><br />
+          <span id="percentage"></span><br/>
+          全台公益勸募所得金額<br />
+          <span id="amount"></span>
+        </div>
+      </div>
+    </div>
+    <div id="sidebar">
+      source code from <a href="http://bl.ocks.org/kerryrodden/7090426">kerryrodden</a> <br />
+      data from <a href="http://donate.mohw.gov.tw/">衛服部</a>
+    </div>
+    <script type="text/javascript" src="v4.js"></script>
+    <script type="text/javascript">
+      // Hack to make this example display correctly in an iframe on bl.ocks.org
+      d3.select(self.frameElement).style("height", "700px");
+  </script> 
+  </body>
+</html>
+<!-- original from Sequences sunburst http://bl.ocks.org/kerryrodden/7090426 -->
